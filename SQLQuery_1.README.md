@@ -96,6 +96,8 @@ Sample data for users, brands, categories, products, orders, order items, carts,
    CREATE DATABASE Online_Merch_Store_Database_SQL
    USE Online_Merch_Store_Database_SQL
 
+```
+
 CREATE TABLE [User](            --- [] makes 'User' an Identifier, because User is a reserved keyword
     UserID INT IDENTITY PRIMARY KEY,
     Username VARCHAR(30) UNIQUE,
@@ -189,7 +191,9 @@ CREATE TABLE UserRole(
     UserID INT REFERENCES [User](UserID),
     Role VARCHAR(30) CHECK (Role IN ('Customer', 'Admin', 'Moderator'))
 );
-------------
+
+
+
 
 -- INPUT/INSERT DATA
 select * from [User]  ---To see the columns so we can Insert accordingly 
