@@ -1,4 +1,5 @@
 # OnlineMerchStore Database SQL Scripts
+SQL scripts for an online merchandise store database created in Azure Data Studio. This repository includes the database schema, sample data, and scripts for common queries. Feel free to use, contribute, or provide feedback. For detailed instructions, refer to the README.md file.
 
 This repository contains SQL scripts for creating and populating a database for an online merchandise store. The database is designed to manage users, products, orders, carts, reviews, discounts, shipping information, and user roles.
 
